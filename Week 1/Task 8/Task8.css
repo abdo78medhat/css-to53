@@ -1,0 +1,147 @@
+.green{
+  height: 100px;
+  width: 100px;  
+  z-index: 3;
+  background-color: green;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.red{
+  height: 100px;
+  width: 100px; 
+  z-index: 4; 
+  background-color: red;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+.blue{
+  height: 100px;
+  width: 100px;  
+  z-index: 2;
+  background-color: blue;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.black{
+  height: 100px;
+  width: 100px;  
+  z-index: 1;
+  background-color: black;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+.father{
+    width: 400px;
+    background-color: #EEE;
+    margin: auto;
+    border-top: 2px solid red ;
+    border-bottom: 2px solid red ;
+    border-right: 2px solid blue ;
+    border-left: 2px solid blue ;
+    position: relative;
+    padding: 20px;
+}
+.top-left ,.bottom-left , .top-right , .bottom-right{
+    background-color: blue;
+    width: 35px;
+    position: absolute;
+    text-align: center;
+}
+.top-left{
+    border-right: 2px solid red;
+    bottom: 105px;
+    right: 420px;
+}
+.top-right{
+    border-left: 2px solid red;
+    bottom: 105px;
+    left: 420px;
+}
+.bottom-left{
+    border-right: 2px solid red;
+    right: 420px;
+    top: 105px;
+}
+.bottom-right{
+    border-left: 2px solid red;
+    left: 420px;
+    top: 105px;
+}
+.main{
+    width: 400px;
+    padding: 0;
+    margin: auto;
+    list-style-type: none; 
+  
+}
+.first-ordered{
+    list-style-type: decimal;
+    margin-bottom: 20px;
+    background-color: rgb(219, 217, 217);
+}
+.second-ordered{
+    list-style-type: upper-roman ;
+    margin-bottom: 20px;
+    background-color: rgb(219, 217, 217);
+}
+.one , .two , .three{
+    background-color: white;
+    margin-bottom: 15px;
+    margin-right: 10px;
+}
+.uot{
+    background-color: rgb(219, 217, 217);
+}
+.li1 ,.li2 ,.li3{
+    margin-bottom: 20px;
+    background-color: rgb(219, 217, 217);
+    padding-bottom: 10px;
+}
+.li3{
+    list-style-position: inside;
+}
+table{
+    margin: auto;
+    width: 700px;
+    border-spacing: 0px;
+}
+img{
+    width: 70px;
+    height:70px;
+}
+table td{
+    background-color: hsl(0, 0%, 90%);
+    padding: 10px;
+    border: #EEE solid 1px;
+    text-align: center;
+    font-size: 18px;
+}
+table thead td{
+    background-color: rgb(42, 39, 39);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.sp1 , .sp2{
+    display: inline-block;
+    margin-left: 5px;
+    width: fit-content;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+.sp1{
+    background-color: rgb(49, 49, 198);
+}
+.sp2{
+    background-color: rgb(230, 25, 25);
+}
+caption{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+}

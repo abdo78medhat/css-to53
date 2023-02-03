@@ -1,0 +1,58 @@
+.assign1{
+    height: 200px;
+    width: 360px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(245, 245, 245);
+    padding-left: 40px;
+    text-align: center;
+    transition: all 0.5s 0 ;
+
+}
+.assign1:hover{
+    margin-top: 30px;
+}
+.assign1:hover .ch{
+    margin-top: 20px;
+}
+.ch{
+    height: 60px;
+    text-align: center;
+    width: 300px;
+    background-color: rgb(202, 197, 197);
+    padding:10px ;
+    transition: all 0.5s 0.5s ;
+}
+.assig2{
+    background-color: #eee !important;
+    color: black !important;
+    text-align: center !important;
+    border: 1px solid #eee !important;
+    width: 400px;
+    margin: 20px auto;
+    position: relative;
+    text-indent: -20000px;
+}
+.assig2::after{
+    content: "Elzero";
+    position: absolute;
+    left: 0;
+    text-indent: 0;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+}
+:root {
+    --mainColor: #009688;
+    --mainPadding: 10px;
+  }
+  
+  .assig3{
+    width: 600px;
+    font-weight: bold;
+    margin: 20px auto;
+    color: var(--mainColor, red);
+    padding: var(--mainPadding);
+    border: 3px solid var(--mainColor, black);
+    padding: 10px;
+}

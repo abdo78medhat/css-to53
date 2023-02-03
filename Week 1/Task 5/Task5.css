@@ -1,0 +1,42 @@
+.assign1{
+    height: 100px;
+    width: 300px;
+    text-shadow: 1px 1px 0 red , 3px 3px 0 blue , 5px 5px 0 blueviolet;
+    text-transform: capitalize;
+    font-size: 36px;
+}
+.one{
+    font-size: 36px;
+    text-transform: uppercase;
+}
+.two{
+    font-size: 36px;
+    text-transform: capitalize;
+}
+.three{
+    font-size: 36px;
+    text-transform: lowercase;
+}
+.assign3{
+    width: 400px;
+    max-height: 50px;
+    background-color: #EEE;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 36px;
+}
+a{
+    margin:auto;
+    display: block;
+    width: 200px;
+    height: 60px;
+    background-color: rgb(54, 160, 121);
+    text-align: center;
+    padding-top: 10px;
+    font-size: 36px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    border-bottom:5px solid rgb(12, 99, 67) ;
+}

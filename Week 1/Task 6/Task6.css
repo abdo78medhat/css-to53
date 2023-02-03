@@ -1,0 +1,45 @@
+*{
+    margin: auto;
+    text-align: center;
+    background-color: #EEE;
+}
+.diva1{
+    border: red 3px solid;
+    height: 80px;
+    width: 50%;
+}
+.pa1{
+    border: inherit;
+    margin-top: 28px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: antiquewhite;
+}
+.font1{
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    text-transform: capitalize;
+    font-size: 36px;
+}
+.font2{
+    font-family: 'Cairo', sans-serif;
+    text-transform: capitalize;
+    font-size: 36px;
+}
+.font3{
+    font-family: 'Jomhuria', cursive;
+    text-transform: capitalize;
+    font-size: 36px;
+}
+.font4{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+.font5{
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+.font6{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
